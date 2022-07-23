@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="testSuite" verbose="2">
+	
+<test name="testName">
+	
+	<!--<parameter name= "username" value= "Admin"></parameter>
+	<parameter name= "password" value= "admin123"></parameter>-->
+	
+	<!--<groups>
+		
+		<run>
+					
+			<exclude name="laptop"></exclude>
+			
+		</run>
+		
+		
+	</groups>-->
+	
+		
+	
+	<classes>
+		
+		<class name="dataDrivenFramework.LoginTC_POI" ></class>
+		<!--<class name="testNG.SampleTest" ></class>-->
+		<!--<class name="testNG.Drive_a_Car" ></class>
+		<class name="testNG.DependencyManagement" ></class>-->
+		
+	</classes>
+	
+</test>	
+	
+</suite>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="testSuite" verbose="2" >
+	
+<test name="BothCorrect">
+	<parameter name="username" value="Admin"/>
+    <parameter name="password" value="admin123"/>
+	
+	
+	<classes>
+		
+		<class name="dataDrivenFramework.DataDriven1" ></class>
+		
+	</classes>
+		
+</test>
+			
+
+<test name="BothInCorrect">
+
+	<parameter name="username" value="Admin321"/>
+    <parameter name="password" value="admin1234"/>	
+	
+	<classes>
+		
+		<class name="dataDrivenFramework.BothIncorrect" ></class>
+		
+	</classes>
+		
+</test>
+
+
+<test name="CorrectPassword">
+
+	<parameter name="username" value="Admin321"/>
+    <parameter name="password" value="admin123"/>	
+	
+	<classes>
+		
+		<class name="dataDrivenFramework.CorrectPassword" ></class>
+		
+	</classes>
+		
+</test>
+
+
+<test name="CorrectUsername">
+
+	<parameter name="username" value="Admin"/>
+    <parameter name="password" value="admin1234"/>	
+	
+	<classes>
+		<class name="dataDrivenFramework.CorrectUsername" ></class>
+		
+	</classes>
+		
+</test>
+		
+</suite>
